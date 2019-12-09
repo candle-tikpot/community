@@ -1,8 +1,7 @@
-<script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-database.js"></script>
-<script src="./firebase_config.js"></script>
 
-<script>https://github.com/candle-tikpot/community/blob/master/web.htm
+<script type="module" src="./firebase_config.js"></script>
+
+<script>
     var response_value = 1;
     firebase.database().ref("/").once("value", r => {
         response_value = r.val()

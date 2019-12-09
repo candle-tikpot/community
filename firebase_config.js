@@ -1,3 +1,5 @@
+import "https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js";
+import "https://www.gstatic.com/firebasejs/7.5.2/firebase-database.js";
 var firebaseConfig = {
     apiKey: "AIzaSyDXM_wGAJOLsf11BTlznqknnGzbS2xeVHg",
     authDomain: "community-5d362.firebaseapp.com",
